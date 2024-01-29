@@ -1,0 +1,26 @@
+let str="Hello world";
+let str1="Hello Earth"
+console.log(str.length)
+console.log(str.charAt(3))
+console.log(str1.indexOf("e"))
+console.log(str.lastIndexOf("l"))
+console.log(str.concat(str1))
+console.log(str.startsWith("H"))
+console.log(str.endsWith("t"))
+console.log(str.includes("Hello"))
+console.log(str.trim())
+console.log(str.toLowerCase())
+console.log(str.toUpperCase())
+console.log(str.repeat(3))
+console.log(str.replace("Hello","Hi"))
+console.log(str.slice(-1))
+console.log(str.substring(2,4))//negative value will give full string
+let a=str.split()
+console.log(a)
+let b=str.split("")
+console.log(b)
+let c=str.split(" ")
+console.log(c)
+let st="polce";
+console.log(st.toLocaleLowerCase())
+console.log(st.toLocaleUpperCase())
