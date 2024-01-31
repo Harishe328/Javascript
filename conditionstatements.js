@@ -1,42 +1,42 @@
-let a=1
+let a = 1
 //if
-if(a<10){
+if (a < 10) {
     console.log("success")
 }
 
 //if else
-if(a>10){
+if (a > 10) {
     console.log("success")
-}else{
+} else {
     console.log("success")
 }
 
 //else if
-if(a==1){
+if (a == 1) {
     console.log("one")
 }
-else if(a<10){
+else if (a < 10) {
     console.log("success");
-}else{
+} else {
     console.log("fail");
 }
 
 //switch
-let b=2;
-switch(b){
-    case 1:{
+let b = 2;
+switch (b) {
+    case 1: {
         console.log("One");
         break;
     }
-    case 2:{
+    case 2: {
         console.log("Two");
         break;
     }
-    case 3:{
+    case 3: {
         console.log("Three");
         break;
     }
-    default:{
+    default: {
         console.log("condition not matched")
     }
 }
