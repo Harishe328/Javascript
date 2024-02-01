@@ -32,4 +32,5 @@ for (let i = 0; i < n2.length; i++) {
     let b = n2[i].slice(1).toLowerCase()
     n2[i] = a + b;
 }
-console.log(n2);
+n1=n2.join().replaceAll(","," ")
+console.log(n1);
